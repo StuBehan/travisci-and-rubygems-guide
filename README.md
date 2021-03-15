@@ -116,16 +116,16 @@ inherit_from:
   - https://raw.githubusercontent.com/makersacademy/scaffolint/v1.1.0/.rubocop.yml
 ```
 
-Now this breaks for me, it says some of the cop names have changed or been removed, I copied the cops from this sauce and changed/removed the obsolete ones. Feel freel to copy my .yml.
+Now this breaks for me, it says some of the cop names have changed or been removed, I copied the cops from this sauce and changed/removed the obsolete ones. Feel freel to copy the .yml in this repo.
 
 ## Simplecov - ideal for TDD apps
 
 Like we've seen in the projects, it's beneficial to see how much of your code is actually tested by your tests. Add simplecov to any repo:
 
-In the `Gemfile`:
+In the `Gemfile` (require: stops it from being a dependancy in the `Gemfile.lock`):
 ```
-gem 'simplecov'
-gem 'simplecov-console'
+gem 'simplecov', require: false
+gem 'simplecov-console', require: false
 ```
 Run `bundle install` and then in the top of your `rspec_helper.rb`:
 ```
