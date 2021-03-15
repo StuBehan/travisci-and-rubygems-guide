@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 group :test do
   gem 'rake'
   gem 'rspec'
-  gem 'rubocop'
-  gem 'simplecov'
-  gem 'simplecov-console'
+  gem 'rubocop', require: false
+  gem 'simplecov', require: false
+  gem 'simplecov-console', require: false
 end
