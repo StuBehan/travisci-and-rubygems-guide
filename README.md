@@ -85,6 +85,15 @@ rvm:
 
 Once this is in, stage everything and then commit and push. Head over to [TravisCI](https://travis-ci.com/) and the repo will get automatically tested, errors will show as they do in terminal.
 
+What a passing build on travis looks like:
+<img align="center" width="620" src="./docs/travis_complete.png">
+
+You can click the build passing sticker to open a window with links for it:
+<img align="center" width="620" src="./docs/travis_passing.png">
+
+Copy sticker markdown code from the window and add it to your README.md
+<img align="center" width="620" src="./docs/travis_sticker.png">
+
 # Some other gems you might want 
 
 ## Run rubocop with auto-correct after each RSpec 
