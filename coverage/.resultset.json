@@ -1,0 +1,40 @@
+{
+  "RSpec": {
+    "coverage": {
+      "C:/Users/stuar/Documents/Projects/guides/spec/something_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/stuar/Documents/Projects/guides/lib/something.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1615837831
+  }
+}
