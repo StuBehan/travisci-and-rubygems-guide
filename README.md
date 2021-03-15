@@ -92,7 +92,7 @@ Once this is in, stage everything and then commit and push. Head over to [Travis
 Add `rubocop` to your `Gemfile`
 
 ```
-gem 'rubocop', '1.11.0'
+gem 'rubocop', require: false
 ```
 Run `bundle install`, in your `Rakefile`, to the top of the file add:
 ```
