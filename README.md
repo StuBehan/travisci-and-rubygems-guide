@@ -1,4 +1,4 @@
-# A guide for setting up your repo for use with Travis CI
+# A guide for setting up your repo for use with Travis CI [![Build Status](https://travis-ci.com/StuBehan/guides.svg?branch=main)](https://travis-ci.com/StuBehan/guides)
 
 Travis is a Continuous Integration(CI) platform that automatically builds and tests your repos.
 
@@ -107,6 +107,16 @@ And add the following inside your default task:
   Rake::Task["rubocop"].execute
 ```
 Now when you run `rake` it will also auto-correct the simpler/formatting errors! Rubocop will only run with a successful set of tests from rspec.
+
+A good thing to add for rubocop is a config file called `.rubocop.yml`, so touch `touch .rubocop.yml` and we'll need to populate it, the easiest way is to make use of the Makers academy [scaffolint](https://github.com/makersacademy/scaffolint) file for rubocop:
+
+Add this to your `.rubocop.yml`:
+```
+inherit_from:
+  - https://raw.githubusercontent.com/makersacademy/scaffolint/v1.1.0/.rubocop.yml
+```
+
+Now this breaks for me, it says some of the cop names have changed or been removed, I copied the cops from this sauce and changed/removed the obsolete ones. Feel freel to copy my .yml.
 
 ### Simplecov - ideal for TDD apps
 
