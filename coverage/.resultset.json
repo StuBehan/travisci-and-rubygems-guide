@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "C:/Users/stuar/Documents/Projects/guides/spec/something_spec.rb": {
+      "/Users/stuartbainesdinning/Documents/Projects/guides/spec/something_spec.rb": {
         "lines": [
           null,
           null,
@@ -16,7 +16,7 @@
           null
         ]
       },
-      "C:/Users/stuar/Documents/Projects/guides/lib/something.rb": {
+      "/Users/stuartbainesdinning/Documents/Projects/guides/lib/something.rb": {
         "lines": [
           null,
           null,
@@ -35,6 +35,6 @@
         ]
       }
     },
-    "timestamp": 1615841362
+    "timestamp": 1615842358
   }
 }
