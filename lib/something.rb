@@ -9,6 +9,6 @@ class Something
   end
 
   def add
-    result = something + something_else
+    something + something_else
   end
 end
