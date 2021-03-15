@@ -122,7 +122,7 @@ Now this breaks for me, it says some of the cop names have changed or been remov
 
 Like we've seen in the projects, it's beneficial to see how much of your code is actually tested by your tests. Add simplecov to any repo:
 
-In the `Gemfile` (require: stops it from being a dependancy in the `Gemfile.lock`):
+In the `Gemfile` (`require: false` stops it from being a dependancy in the `Gemfile.lock`):
 ```
 gem 'simplecov', require: false
 gem 'simplecov-console', require: false
