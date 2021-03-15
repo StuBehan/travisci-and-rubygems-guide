@@ -9,7 +9,7 @@ To integrate travis with a ruby repo we're gonna need a few things:
 * A test suite, we're mostly using `RSpec` so lets do that.
 * Some kind of automation tool to tell TravisCI what to do on the build, we'll use `rake`.
 
-### Gemfile & Gemfile.lock
+## Gemfile & Gemfile.lock
 
 Lets start with our `Gemfile`, `touch Gemfile`, `Gemfile.lock` is genereated automatically when bundle is run.
 
@@ -38,11 +38,11 @@ PLATFORMS
   x64-mingw32
   x86_64-linux
 ```
-### RSpec 
+## RSpec 
 
 Run RSpec with `rspec --init`, this will create the `./spec/ folder`, `.rspec` and `spec_helper.rb`.
 
-### Rake
+## Rake
 
 Rake is an automation tool for ruby, there is a lot you can do with it but we will be just using it to run RSpec for now, for the purposes of making TravisCI work. You can find out more about rake [here](https://github.com/ruby/rake).
 
@@ -69,7 +69,7 @@ If you're like me and you prefer the RSpec to display in the comment style when 
 ```
 You can run `rake` instead of `rspec` now and it does the same thing!
 
-### Travis CI 
+## Travis CI 
 
 To get travis to look at our repo and run it we need to tell it a few things.
 
@@ -85,9 +85,9 @@ rvm:
 
 Once this is in, stage everything and then commit and push. Head over to [TravisCI](https://travis-ci.com/) and the repo will get automatically tested, errors will show as they do in terminal.
 
-## Some other gems you might want 
+# Some other gems you might want 
 
-### Run rubocop with auto-correct after each RSpec 
+## Run rubocop with auto-correct after each RSpec 
 
 Add `rubocop` to your `Gemfile`
 
@@ -118,7 +118,7 @@ inherit_from:
 
 Now this breaks for me, it says some of the cop names have changed or been removed, I copied the cops from this sauce and changed/removed the obsolete ones. Feel freel to copy my .yml.
 
-### Simplecov - ideal for TDD apps
+## Simplecov - ideal for TDD apps
 
 Like we've seen in the projects, it's beneficial to see how much of your code is actually tested by your tests. Add simplecov to any repo:
 
