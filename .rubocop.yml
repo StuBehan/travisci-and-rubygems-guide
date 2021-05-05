@@ -10,7 +10,7 @@
 # Problems (eg obselete names) may be due to an incompatible version.
 # Check your Rubocop version with `rubocop -v` in the command line.
 #
-# Tested with Rubocop version 0.79.0
+# Tested with Rubocop version 1.11.0
 #
 # Introduction
 # ============
