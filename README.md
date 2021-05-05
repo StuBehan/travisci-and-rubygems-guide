@@ -1,4 +1,4 @@
-# A guide for setting up your repo for use with Travis CI [![Build Status](https://travis-ci.com/StuBehan/guides.svg?branch=main)](https://travis-ci.com/StuBehan/guides)
+# A guide for setting up your repo for use with Travis CI [![Build Status](https://travis-ci.com/StuBehan/travisci-and-rubygems-guide.svg?branch=main)](https://travis-ci.com/StuBehan/travisci-and-rubygems-guide)
 
 Travis is a Continuous Integration(CI) platform that automatically builds and tests your repos.
 
